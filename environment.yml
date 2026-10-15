@@ -1,4 +1,4 @@
-name: mitoevents-env
+name: nd2_splitter-env
 channels:
   - conda-forge
   - bioconda
@@ -6,9 +6,6 @@ dependencies:
   - pip=26.2
   - python=3.12
   - pip:
-    - "numpy==2.5.3"
-    - "pandas==3.0.5"
+    - "tifffile==2026.9.20"
     - "bffile==0.1.1"
-    - "PyQt6==6.11.0"
-    - "pyqtgraph==0.14.0"
-    - "pyshortcuts==1.9.11"
+    - "jupyter==1.1.1"
